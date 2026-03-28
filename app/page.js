@@ -118,7 +118,7 @@ export default function Home() {
 
           <h1 className="hero-headline reveal" style={{ transitionDelay: '.1s' }}>
             Sabor Intenso,<br />
-            <span>Picante &amp;</span><br />
+            <span>Picante &amp;</span>
             Autêntico.
           </h1>
 
