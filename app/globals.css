@@ -118,7 +118,7 @@ nav.scrolled {
 
 .hero-bg {
   position: absolute; inset: 0; z-index: 0;
-  background-image: url('/hero.png');
+  background-image: url('/hero.jpg');
   background-size: cover;
   background-position: center 30%;
   background-repeat: no-repeat;

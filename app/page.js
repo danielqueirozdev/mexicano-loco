@@ -32,33 +32,33 @@ export default function Home() {
   const menuItems = [
     // Tacos & Burritos
     [
-      { name: 'Taco Clássico', desc: 'Tortilha de milho, carne temperada, pico de gallo e coentro', price: 'R$16', img: '/taco.png' },
-      { name: 'Taco Picante', desc: 'Carne apimentada, jalapeño, queijo e creme azedo', price: 'R$18', img: '/taco.png' },
-      { name: 'Burrito Supreme', desc: 'Feijão, arroz, carne, queijo, guacamole e salsa', price: 'R$32', img: '/burrito.png' },
-      { name: 'Burrito Frango', desc: 'Frango grelhado, feijão preto, arroz e pimenta', price: 'R$28', img: '/burrito.png' },
-      { name: 'Quesadilla', desc: 'Tortilha crocante recheada com queijo derretido e carne', price: 'R$24', img: '/quesadilla.png' },
-      { name: 'Taco Vegano', desc: 'Cogumelos salteados, feijão, abacate e salsa verde', price: 'R$16', img: '/taco.png' },
+      { name: 'Taco Clássico', desc: 'Tortilha de milho, carne temperada, pico de gallo e coentro', price: 'R$16', img: '/taco.jpg' },
+      { name: 'Taco Picante', desc: 'Carne apimentada, jalapeño, queijo e creme azedo', price: 'R$18', img: '/taco.jpg' },
+      { name: 'Burrito Supreme', desc: 'Feijão, arroz, carne, queijo, guacamole e salsa', price: 'R$32', img: '/burrito.jpg' },
+      { name: 'Burrito Frango', desc: 'Frango grelhado, feijão preto, arroz e pimenta', price: 'R$28', img: '/burrito.jpg' },
+      { name: 'Quesadilla', desc: 'Tortilha crocante recheada com queijo derretido e carne', price: 'R$24', img: '/quesadilla.jpg' },
+      { name: 'Taco Vegano', desc: 'Cogumelos salteados, feijão, abacate e salsa verde', price: 'R$16', img: '/taco.jpg' },
     ],
     // Entradas
     [
-      { name: 'Nachos Supreme', desc: 'Nachos crocantes com queijo, jalapeño, guacamole e sour cream', price: 'R$28', img: '/nachos.png' },
-      { name: 'Guacamole Fresh', desc: 'Abacate, limão, coentro, cebola e tomate — feito na hora', price: 'R$22', img: '/guacamole.png' },
-      { name: 'Quesadilla Entrada', desc: 'Mini quesadillas com queijo e pimenta', price: 'R$18', img: '/quesadilla.png' },
-      { name: 'Nachos com Carne', desc: 'Nachos com carne moída temperada e molho especial', price: 'R$32', img: '/nachos.png' },
+      { name: 'Nachos Supreme', desc: 'Nachos crocantes com queijo, jalapeño, guacamole e sour cream', price: 'R$28', img: '/nachos.jpg' },
+      { name: 'Guacamole Fresh', desc: 'Abacate, limão, coentro, cebola e tomate — feito na hora', price: 'R$22', img: '/guacamole.jpg' },
+      { name: 'Quesadilla Entrada', desc: 'Mini quesadillas com queijo e pimenta', price: 'R$18', img: '/quesadilla.jpg' },
+      { name: 'Nachos com Carne', desc: 'Nachos com carne moída temperada e molho especial', price: 'R$32', img: '/nachos.jpg' },
     ],
     // Bebidas
     [
-      { name: 'Margarita Clássica', desc: 'Tequila, triple sec, limão e sal na borda', price: 'R$28', img: '/margarita.png' },
-      { name: 'Margarita de Frutas', desc: 'Com morango, manga ou maracujá', price: 'R$30', img: '/margarita.png' },
-      { name: 'Agua Fresca', desc: 'Refrescante com hibisco, limão ou tamarindo', price: 'R$12', img: '/margarita.png' },
-      { name: 'Refrigerante Lata', desc: 'Coca-Cola, Sprite ou Guaraná', price: 'R$8', img: '/margarita.png' },
+      { name: 'Margarita Clássica', desc: 'Tequila, triple sec, limão e sal na borda', price: 'R$28', img: '/margarita.jpg' },
+      { name: 'Margarita de Frutas', desc: 'Com morango, manga ou maracujá', price: 'R$30', img: '/margarita.jpg' },
+      { name: 'Agua Fresca', desc: 'Refrescante com hibisco, limão ou tamarindo', price: 'R$12', img: '/margarita.jpg' },
+      { name: 'Refrigerante Lata', desc: 'Coca-Cola, Sprite ou Guaraná', price: 'R$8', img: '/margarita.jpg' },
     ],
   ]
 
   const destaques = [
-    { name: 'Taco Clássico', desc: 'Tortilha de milho, carne temperada, pico de gallo e coentro fresco. O sabor que começou tudo.', price: 'R$16', img: '/taco.png', featured: false },
-    { name: 'Burrito Supreme', desc: 'Recheado com feijão, arroz, carne, queijo, guacamole e salsa. O favorito da casa.', price: 'R$32', img: '/burrito.png', featured: true },
-    { name: 'Nachos Supremo', desc: 'Nachos crocantes com queijo derretido, jalapeño, guacamole e sour cream artesanal.', price: 'R$28', img: '/nachos.png', featured: false },
+    { name: 'Taco Clássico', desc: 'Tortilha de milho, carne temperada, pico de gallo e coentro fresco. O sabor que começou tudo.', price: 'R$16', img: '/taco.jpg', featured: false },
+    { name: 'Burrito Supreme', desc: 'Recheado com feijão, arroz, carne, queijo, guacamole e salsa. O favorito da casa.', price: 'R$32', img: '/burrito.jpg', featured: true },
+    { name: 'Nachos Supremo', desc: 'Nachos crocantes com queijo derretido, jalapeño, guacamole e sour cream artesanal.', price: 'R$28', img: '/nachos.jpg', featured: false },
   ]
 
   const faqs = [
@@ -233,7 +233,7 @@ export default function Home() {
       <section id="sobre">
         <div className="sobre-inner">
           <div className="sobre-img">
-            <img src="/ingredients.png" alt="Ingredientes frescos" />
+            <img src="/ingredients.jpg" alt="Ingredientes frescos" />
           </div>
           <div className="sobre-content">
             <div className="sec-tag reveal">🌿 Nossa História</div>
